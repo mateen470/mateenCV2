@@ -1,3 +1,8 @@
+// AN EVENT IS BEINGBINDED AT THE LOADING TIME USING J-QUERY
+$("p2.jpg").load(function () {
+  alert("WELCOME! TO MY PORTFOLIO");
+});
+
 // FUNCTION FOR DISPLAYING THE SCHOOL NAME IF THE SCHOOL IS CLICKED
 function myMatric() {
   var courses = document.getElementById("school");
