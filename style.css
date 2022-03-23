@@ -1,0 +1,39 @@
+body {
+  font-family: "Trochut", cursive;
+}
+.carousel-caption {
+  bottom: initial;
+  top: 30%;
+}
+.carousel-caption h1 {
+  font-size: 3rem;
+  color: gold;
+}
+.carousel-caption h3 {
+  color: lightgreen;
+}
+.carousel-caption h2 {
+  color: crimson;
+}
+.row {
+  background-color: rgba(128, 128, 128, 0.178);
+}
+.row #who {
+  border-radius: 50%;
+}
+.education li {
+  list-style: none;
+}
+/* FOR FUNCTION */
+#school {
+  display: none;
+}
+#college {
+  display: none;
+}
+#uni {
+  display: none;
+}
+#uni2 {
+  display: none;
+}

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:
+    wght@200&family=Permanent+Marker&family=Stalinist+One
+    &family=Trochut&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="fav.png" />
+    <script src="script.js"></script>
+    <title>Abdul-Mateen</title>
+  </head>
+
+  <body>
+    <!-- USING CROUSEL-COMPONENT OF BOOTSTRAP FOR THE SLIDESHOW -->
+    <div class="container-fluid">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="p2.jpg" class="d-block w-100 img-fluid" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2><strong>Hello!</strong> I am</h2>
+              <h1>ABDUL MATEEN</h1>
+              <h3>
+                I don't just build websites, I build websites that
+                <strong> SELLS</strong>
+              </h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="p3.jpg" class="d-block w-100 img-fluid" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2><strong>Hello!</strong> I am</h2>
+              <h1>ABDUL MATEEN</h1>
+              <h3>
+                I love what I do and I do what our clients love & work with
+                great clients all over the world to create thoughtful and
+                purposeful websites.
+                <strong> SELLS</strong>
+              </h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="p4.jpg" class="d-block w-100 img-fluid" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h2><strong>Hello!</strong> I am</h2>
+              <h1>ABDUL MATEEN</h1>
+              <h3>
+                Website without visitors is like a ship lost in the horizon.
+                <strong> SELLS</strong>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- THE SECOND SECTION IS FOR MY EDUCATION AND A PARAGRPAH ABOUT MY-SELF AND I AM USING 
+        BOOTSTRAP GRID SYSTEM TO MAKE 3 COLUMNS OF EQUAL SIZE -->
+    <div class="container-fluid">
+      <div class="row pt-5">
+        <div class="col-sm-12 col-md-4">
+          <h2>WHO AM I?</h2>
+          <h4>
+            My occupation of choice is web designer, and I chose this because
+            even though I don’t know everything about computers I am very fast
+            at learning about them. It’s never too late to start this occupation
+            and I know if I put time and effort into this, I know I will love it
+            and I can be good at it. As a web designer I will create and keep up
+            with websites, including the layout, and function according to the
+            client.
+          </h4>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img id="who" class="img-fluid" src="p6.jpg" />
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="education">
+            <h2>EDUCATION</h2>
+            <hr />
+            <ul>
+              <li>
+                <button
+                  class="btn btn-danger dropdown_button mt-4 btn-lg"
+                  onclick="myMatric()"
+                >
+                  MATRIC
+                </button>
+                <div id="school"><h3>UNIQUE HIGH SCHOOL</h3></div>
+              </li>
+              <li>
+                <button
+                  class="btn btn-warning dropdown_button1 mt-4 btn-lg"
+                  onclick="myInter()"
+                >
+                  INTERMEDIATE
+                </button>
+                <div id="college"><h3>GCU</h3></div>
+              </li>
+              <li>
+                <button
+                  class="btn btn-info dropdown_button2 mt-4 btn-lg"
+                  onclick="myBs()"
+                >
+                  BACHELORS
+                </button>
+                <div id="uni"><h3>COMSATS</h3></div>
+              </li>
+              <li>
+                <button
+                  class="btn btn-dark dropdown_button3 mt-4 btn-lg"
+                  onclick="myMphil()"
+                >
+                  M-PHIL
+                </button>
+                <div id="uni2"><h3>COMSATS</h3></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIS IS THE THIRD SECTION IN WHICH I WILL TALK ABOUT MY SKILLS, THERE ARE 6 SKILLS
+    AND BOOTSTRAP GRID IS BEING USED-->
+    <div class="container-fluid bg-secondary">
+      <div class="row pt-5">
+        <h2 class="text-center">WHAT I AM <strong>DOING</strong></h2>
+        <hr />
+        <div class="col-sm-12 col-md-4 mt-3">
+          <div class="card" style="width: 18rem">
+            <img src="dev.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>WEB</strong> Developer</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-warning"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  7.5/10
+                </div>
+              </div>
+              <p class="card-text">
+                Web development is the work involved in developing a website for
+                the Internet (World Wide Web) or an intranet (a private
+                network). Web development can range from developing a simple
+                single static page of plain text to complex web applications,
+                electronic businesses, and social network services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+          <div class="card" style="width: 18rem">
+            <img src="des.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>WEB</strong> Designer</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-warning"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  7.5/10
+                </div>
+              </div>
+              <p class="card-text">
+                Web design encompasses many different skills and disciplines in
+                the production and maintenance of websites. The different areas
+                of web design include web graphic design; user interface design
+                (UI design); authoring, including standardised code and
+                proprietary software.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3">
+          <div class="card" style="width: 18rem">
+            <img src="art.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Content</strong> Writing</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-danger"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  10/10
+                </div>
+              </div>
+              <p class="card-text">
+                A news article discusses current or recent news of either
+                general interest (i.e. daily newspapers) or of a specific topic
+                (i.e. political or trade news magazines, club newsletters, or
+                technology news websites). A news article can include accounts
+                of eyewitnesses to the happening event.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="vid.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Video</strong> Editing</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-info"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5/10
+                </div>
+              </div>
+              <p class="card-text">
+                Video editing is the manipulation and arrangement of video
+                shots. Video editing is used to structure and present all video
+                information, including films and television shows, video
+                advertisements and video essays. Video editing has been
+                dramatically democratized in recent years by editing software
+                available for personal computers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="seo.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>SEO</strong></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-info"
+                  role="progressbar"
+                  style="width: 50%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  5/10
+                </div>
+              </div>
+              <p class="card-text">
+                Search engine optimization (SEO) is the process of improving the
+                quality and quantity of website traffic to a website or a web
+                page from search engines. SEO targets unpaid traffic (known as
+                "natural" or "organic" results) rather than direct traffic or
+                paid traffic.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+          <div class="card" style="width: 18rem">
+            <img src="mob.jpg" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title"><strong>Mobile</strong> App. Developer</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-warning"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  7.5/10
+                </div>
+              </div>
+              <p class="card-text">
+                Mobile app development is the act or process by which a mobile
+                app is developed for mobile devices, such as personal digital
+                assistants, enterprise digital assistants or mobile phones.
+                These software applications are designed to run on mobile
+                devices, such as a smartphone or tablet computer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIS IS THE FOURTH SECTION AND THIS WILL BE THE TESTIMONIAL AND I AM USING 
+    GRID LAYOUT OF BOOTSTRAP -->
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 pt-5">
+          <h2 class="text-center"><strong>TESTIMONIAL</strong></h2>
+          <h4>
+            "From the start of the project, through to completion,
+            <strong>Abdul-Mateen</strong>
+            supported us and exceeded our expectations in every way. Not only
+            was our experience personal and friendly, his ability to identify
+            and present our key messages in an imaginative and creative way gave
+            us a huge amount of confidence in him. In many ways Warren
+            understood our client's website needs better than we did and he
+            complimented our vision perfectly. He's reliable, professional and
+            easy to work with. I can’t recommend him highly enough and we look
+            forward to continuing our working relationship together."
+          </h4>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <img src="company.jpg" class="rounded mt-3 img-fluid" />
+          <h5 class="mt-2"><strong>beyond</strong> Web Development Co.</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIS IS THE FIFTH SECTION AND IT WILL CONTAIN THE EXPERIENCE AND I WILL USE 
+    GRID SYSTEM OF BOOTSTRAP -->
+    <div class="container-fluid bg-secondary">
+      <div class="row pt-5">
+        <h2 class="text-center">EXPERIENCE</h2>
+        <div class="col-sm-12 col-md-6">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="card-title">SYSTEMS</h5>
+              <hr />
+              <h6 class="card-subtitle mb-2 text-muted">
+                Internship (mm/dd/yy-mm/dd/yy)
+              </h6>
+              <p class="card-text">
+                Researching, designing, implementing, and managing software
+                programs. Testing and evaluating new programs. Identifying areas
+                for modification in existing programs and subsequently
+                developing these modifications. Writing and implementing
+                efficient code.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="card-title">ARBISOFT</h5>
+              <hr />
+              <h6 class="card-subtitle mb-2 text-muted">
+                Jr. Developer (mm/dd/yy-mm/dd/yy)
+              </h6>
+              <p class="card-text">
+                Researching, designing, implementing, and managing software
+                programs. Testing and evaluating new programs. Identifying areas
+                for modification in existing programs and subsequently
+                developing these modifications. Writing and implementing
+                efficient code.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="card mt-3 mb-3" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="card-title">NETSOL</h5>
+              <hr />
+              <h6 class="card-subtitle mb-2 text-muted">
+                Sr. Developer (mm/dd/yy-mm/dd/yy)
+              </h6>
+              <p class="card-text">
+                Researching, designing, implementing, and managing software
+                programs. Testing and evaluating new programs. Identifying areas
+                for modification in existing programs and subsequently
+                developing these modifications. Writing and implementing
+                efficient code.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="card mt-3 mb-3" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="card-title">GOOGLE</h5>
+              <hr />
+              <h6 class="card-subtitle mb-2 text-muted">
+                PROJECT MANAGER (mm/dd/yy-mm/dd/yy)
+              </h6>
+              <p class="card-text">
+                Researching, designing, implementing, and managing software
+                programs. Testing and evaluating new programs. Identifying areas
+                for modification in existing programs and subsequently
+                developing these modifications. Writing and implementing
+                efficient code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- THIS SECTION IS THE CONTACT ME SECTION AND I WILL BE USING A 
+    FORM IN IT -->
+    <div class="container-fluid pt-5 bg-light">
+      <h2 class="text-center">CONTACT ME</h2>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Name/Company Name"
+          aria-label="Name/Company Name"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="E-mail Address"
+          aria-label="E-mail Address"
+          aria-describedby="basic-addon2"
+        />
+      </div>
+      <div class="input-group mb-5">
+        <span class="input-group-text">OVERVIEW OF YOUR WORK</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer text-light bg-dark">
+      <div class="footer-copyright text-center py-3">
+        DESIGNED BY ABDUL-MATEEN
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
